@@ -17,6 +17,9 @@
 ## 販売
 たぶん[booth](https://te9no.booth.pm/)で販売  
 
+## ビルドガイド
+[here](https://github.com/te9no/Geacon/blob/main/docs%2Fbuildguide.md)
+
 ## ファームウェア
 [Github](https://github.com/te9no/zmk-config-te9no/)  
 
