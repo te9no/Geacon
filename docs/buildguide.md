@@ -1,9 +1,11 @@
 # ビルドガイド
 ## 謝辞
 トラックボールケースはkepeoさんのデータを利用させていただきました。
-Keyball Trackball Case (Test) by kepeo - Thingiverse(https://www.thingiverse.com/thing:6749719)
+[Keyball Trackball Case (Test) by kepeo - Thingiverse](https://www.thingiverse.com/thing:6749719)
+
 トラックボール基板はkumaさんの設計したデータを利用させていただきました。
-GitHub - kumamuk-git/roBa(https://github.com/kumamuk-git/roBa)
+[GitHub - kumamuk-git/roBa](https://github.com/kumamuk-git/roBa)
+
 いずれも利用にあたり快諾してくださり、大変感謝しております。ありがとうございます！
 
 ## 部品確認
