@@ -1,5 +1,6 @@
 # キーボードについて
 キーボード名：Geacon
+[roBa](https://github.com/kumamuk-git/roBa)や、[GRIN One](https://note.com/policium/n/nc7ceb56d11fe)にインスパイアされて設計したオリジナルキーボードです。
 
 ## 特徴
 ・ZMKによる無線接続対応
