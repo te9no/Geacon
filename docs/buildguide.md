@@ -104,12 +104,13 @@ UF2ファイルをドラッグ＆ドロップするとファームウェアの�
 ### ZMK Studioの起動
 Web版　https://zmk.studio/ ※USB接続のみ対応  
 アプリ版　https://zmk.studio/download ※USB接続、無線接続対応  
-起動すると以下のような画面が表示されます。  
-![alt text](./img/zmkstudio1.png)
+起動すると以下のような画面が表示される。  
+
+![alt text](./img/zmkstudio1.png)  
 接続するキーボード名をクリックする。  
 
 ### キーの編集
-左ペインでレイヤーを選択
+左ペインでレイヤーを選択  
 ![alt text](./img/zmkstudio2.png)  
 
 変更したいキーを選択し、下部に表示されるKeyから設定したいキーを選択する。  
