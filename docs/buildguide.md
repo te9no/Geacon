@@ -100,24 +100,69 @@ UF2ファイルをドラッグ＆ドロップするとファームウェアの�
 ・「＼」キーを押している間レイヤー5が有効になり、同時に数字1~5を押すことで接続プロファイルを切り替える。  
 ・レイヤー5で「`」キー→現在の接続プロファイルを消去する。tabキー→接続プロファイルを全て消去する。  
 
-## キーの編集
-### ZMK studioの起動
+## キーの編集（ZMK Studio）
+### ZMK Studioの起動
 Web版　https://zmk.studio/ ※USB接続のみ対応  
 アプリ版　https://zmk.studio/download ※USB接続、無線接続対応  
 起動すると以下のような画面が表示されます。  
-![alt text](image.png)
+![alt text](./img/zmkstudio1.png)
 接続するキーボード名をクリックする。  
 
 ### キーの編集
 左ペインでレイヤーを選択
-![alt text](image-2.png)
+![alt text](./img/zmkstudio2.png)  
+
 変更したいキーを選択し、下部に表示されるKeyから設定したいキーを選択する。  
-![alt text](image-1.png)
+![alt text](./img/zmkstudio3.png)  
+
 変更を反映するには右上の保存ボタンをクリックする。  
-![alt text](image-3.png)
+![alt text](./img/zmkstudio4.png)  
+
+### キーの編集（Keymap Editor）
+以下リポジトリをクローンして、ローカルにチェックアウトしておく。  
+https://github.com/te9no/zmk-config-te9no  
+  
+Keymap Editorのページを開く。  
+https://nickcoutsos.github.io/keymap-editor/  
+
+File Systemを選択する。  
+![alt text](./img/keymapeditor1.png)  
+
+Import Keymapsをクリックする。  
+![alt text](./img/keymapeditor2.png)  
+
+.keymapファイルを選択する。  
+![alt text](./img/keymapeditor3.png)  
+
+Identify Keyboardをクリックする。  
+![alt text](./img/keymapeditor4.png)  
+
+Custom...を選択する。  
+![alt text](./img/keymapeditor5.png)  
+
+ファイルの選択をクリックする。  
+![alt text](./img/keymapeditor6.png)  
+
+.jsonファイルを選択する。  
+![alt text](./img/keymapeditor7.png)  
+
+Confirmをクリックする。  
+![alt text](./img/keymapeditor8.png)  
+
+Continueをクリックする。  
+![alt text](./img/keymapeditor9.png)  
+
+適当に編集してSaveボタンをクリックすると、ローカルのファイルに変更が反映される。  
+![alt text](./img/keymapeditor10.png)  
+
+Githubのリポジトリに変更をプッシュする。  
+
+Github Actionでコミットごとにビルドされる。Artifactsからビルドされたファームウェアをダウンロードする。  
+![alt text](./img/keymapeditor11.png)
 
 ## その他
 ### 電源スイッチ
+
 電源スイッチは左側でON、右側でOFFとなる。  
  
 ### PCBの外し方
